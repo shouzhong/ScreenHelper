@@ -14,9 +14,8 @@
         <td><img width="270" height="450" src="https://github.com/shouzhong/ScreenHelper/blob/master/Screenshots/480_800_4.png"/></td>
         <td><img width="270" height="450" src="https://github.com/shouzhong/ScreenHelper/blob/master/Screenshots/480_800_5.png"/></td>
     </tr>
+    上边图为分辨率为1080*1920的屏幕，下边图为480*800的屏幕
 </table>
-
-上边图为分辨率为1080*1920的屏幕，下边图为480*800的屏幕
 
 ## 使用
 ### 预览
