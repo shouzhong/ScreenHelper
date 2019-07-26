@@ -21,7 +21,9 @@
 ## 使用
 ### 预览
 首先，我们要建一个预览，以1080*1920为例，屏幕尺寸为30.6寸，具体计算方法为(sqrt(1920^2+1080^2))/72
+
 ![图一.png](https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1.png)
+
 ### 依赖
 ```
 implementation 'com.shouzhong:ScreenHelper:1.0.0'
