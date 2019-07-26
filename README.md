@@ -49,7 +49,7 @@ public Resources getResources() {
 ## 方法说明
 方法名 | 说明
 ------------ | -------------
-adaptWidth | 长度适配
+adaptWidth | 宽度适配
 adaptHeight | 高度适配
 closeAdapt | 关闭适配
 pt2Px | pt转px
