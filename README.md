@@ -25,10 +25,10 @@
 
 ### 依赖
 ```
-implementation 'com.shouzhong:ScreenHelper:1.0.0'
+implementation 'com.shouzhong:ScreenHelper:1.0.1'
 ```
 ### 代码
-重写Activity的getResources方法，其中1080为设计稿尺寸，根据实际设计稿填写
+重写Application和Activity的getResources方法，其中1080为设计稿尺寸，根据实际设计稿填写
 ```
 @Override
 public Resources getResources() {
@@ -38,7 +38,7 @@ public Resources getResources() {
     else return ScreenHelper.adaptWidth(super.getResources(), 1080);
 }
 ```
-不想用了怎么办，一样重写Activity的getResources方法
+不想用了怎么办，一样重写Application和Activity的getResources方法
 ```
 @Override
 public Resources getResources() {

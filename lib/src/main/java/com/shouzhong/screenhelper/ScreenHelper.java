@@ -11,21 +11,21 @@ public class ScreenHelper {
     public static Resources adaptWidth(Resources resources, int designWidth) {
         DisplayMetrics dm = getDisplayMetrics(resources);
         float newXdpi = dm.xdpi = (dm.widthPixels * 72f) / designWidth;
-        setAppDmXdpi(newXdpi);
+//        setAppDmXdpi(newXdpi);
         return resources;
     }
 
     public static Resources adaptHeight(Resources resources, int designHeight) {
         DisplayMetrics dm = getDisplayMetrics(resources);
         float newXdpi = dm.xdpi = (dm.heightPixels * 72f) / designHeight;
-        setAppDmXdpi(newXdpi);
+//        setAppDmXdpi(newXdpi);
         return resources;
     }
 
     public static Resources closeAdapt(Resources resources) {
         DisplayMetrics dm = getDisplayMetrics(resources);
         float newXdpi = dm.xdpi = dm.density * 72;
-        setAppDmXdpi(newXdpi);
+//        setAppDmXdpi(newXdpi);
         return resources;
     }
 
