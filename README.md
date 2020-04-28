@@ -25,7 +25,7 @@
 
 ### 依赖
 ```
-implementation 'com.shouzhong:ScreenHelper:1.0.1'
+implementation 'com.shouzhong:ScreenHelper:1.0.2'
 ```
 ### 代码
 重写Application和Activity的getResources方法，其中1080为设计稿尺寸，根据实际设计稿填写
